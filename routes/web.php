@@ -1,45 +1,19 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers;
+use App\Http\Controllers\PortoControllers;
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function(){
+    return view('home');
 });
 
-Route::get('/index', function () {
-    return view('index');
-});
-
-Route::get('/about', function () {
-    return view('about');
-});
-
-Route::get('/quality', function () {
-    return view('quality');
-});
-
-Route::get('/skill', function () {
-    return view('skill');
-});
-
-Route::get('/service', function () {
-    return view('service');
-});
-
-Route::get('/portofolio', function () {
-    return view('portofolio');
-});
-
-Route::get('/review', function () {
-    return view('review');
-});
-
-Route::get('/blog', function () {
-    return view('blog');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-
+Route::get('/home', [PortoControllers::class, 'indexHome']);
+Route::get('/about', [PortoControllers::class, 'indexAbout']);
+Route::get('/blog', [PortoControllers::class, 'indexBlog']);
+Route::get('/quality', [PortoControllers::class, 'indexQuality']);
+Route::get('/portofolio', [PortoControllers::class, 'indexPortofolio']);
+Route::get('/review', [PortoControllers::class, 'indexReview']);
+Route::get('/skill', [PortoControllers::class, 'indexSkill']);
+Route::get('/service', [PortoControllers::class, 'indexService']);
+Route::get('/contact', [PortoControllers::class, 'indexContact']);

@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-     <!-- Portfolio Start -->
-     <div class="container-fluid pt-5 pb-3" id="portfolio">
+@extends('master')
+@section('content')
+<div class="container-fluid pt-5 pb-3" id="portfolio">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
@@ -87,6 +80,4 @@
             </div>
         </div>
     </div>
-    <!-- Portfolio End -->
-</body>
-</html>
+    @endsection

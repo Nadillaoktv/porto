@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!-- Skill Start -->
-    <div class="container-fluid py-5" id="skill">
+@extends('master')
+@section('content')
+<div class="container-fluid py-5" id="skill">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
@@ -75,6 +68,4 @@
             </div>
         </div>
     </div>
-    <!-- Skill End -->
-</body>
-</html>
+    @endsection

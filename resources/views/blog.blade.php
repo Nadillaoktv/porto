@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-     <!-- Blog Start -->
-     <div class="container-fluid pt-5" id="blog">
+@extends('master')
+@section('content')
+<div class="container-fluid pt-5" id="blog">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Blog</h1>
@@ -50,6 +43,4 @@
             </div>
         </div>
     </div>
-    <!-- Blog End -->
-</body>
-</html>
+    @endsection
