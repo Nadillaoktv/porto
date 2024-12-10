@@ -13,7 +13,7 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -24,6 +24,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -41,10 +42,6 @@
                 <a href="/about" class="nav-item nav-link">About</a>
                 <a href="/quality" class="nav-item nav-link">Quality</a>
                 <a href="/skill" class="nav-item nav-link">Skill</a>
-                <a href="/service" class="nav-item nav-link">Service</a>
-                <a href="/portofolio" class="nav-item nav-link">Portfolio</a>
-                <a href="/review" class="nav-item nav-link">Review</a>
-                <a href="/blog" class="nav-item nav-link">Blog</a>
                 <a href="/contact" class="nav-item nav-link">Contact</a>
             </div>
             <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
@@ -60,7 +57,7 @@
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
-                    </button>        
+                    </button>
                     <!-- 16:9 aspect ratio -->
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
@@ -100,7 +97,7 @@
         @yield('contact')
         <!-- Contact End -->
     </div>
-   
+
 
 
     <!-- Footer Start -->

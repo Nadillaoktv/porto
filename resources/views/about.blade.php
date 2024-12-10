@@ -12,8 +12,8 @@
                     <img class="img-fluid rounded w-100" src="img/pp3.jpg" alt="">
                 </div>
                 <div class="col-lg-7">
-                    <h3 class="mb-4">UI/UX Designer & Web Developer</h3>
-                    <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum. Amet dolor stet lorem diam dolor justo et dolor dolor dolor</p>
+                    <h3 class="mb-4">Front-End Developer</h3>
+                    <p>Saya adalah siswi jurusan Pengembangan Perangkat Lunak dan Gim yang memiliki semangat tinggi untuk belajar dan berkembang di dunia teknologi. Dengan latar belakang di Informatika Engineering, saya terbiasa dengan pemrograman, pengembangan aplikasi, dan pengelolaan proyek. Saya memiliki kemampuan dalam membuat website portofolio dan merancang aplikasi berbasis Laravel.</p>
                     <div class="row mb-3">
                         <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Nadila Oktaviana Putri</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">15 Oktober 2007</span></h6></div>
